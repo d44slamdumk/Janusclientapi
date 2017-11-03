@@ -18,7 +18,8 @@ public enum JanusMessageType {
     webrtcup,
     hangup,
     detached,
-    media;
+    media,
+    slowlink;
 
     @Override
     public String toString() {
